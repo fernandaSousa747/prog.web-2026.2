@@ -5,5 +5,5 @@ app = Flask(__name__)
 @app.get("/")
 def inicio():
     return {
-        "mensagem": "API de chamados em funcionamento!"
+        "mensagem": "API de chamados em funcionamento"
     }
